@@ -4,7 +4,7 @@ pipeline {
 
         registry = "hanumantharao1986/hanu" 
 
-        registryCredential = 'dockerhub_id' 
+        registryCredential = 'hanudockerhub' 
 
         dockerImage = '' 
 
