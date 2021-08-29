@@ -24,3 +24,9 @@ step6: To cehck docker version
 
 sudo docker -v
 
+step7: added the user to the docker group
+
+sudo usermod -aG docker $USER
+
+step8: run below command or  relogin the server
+newgrp docker
