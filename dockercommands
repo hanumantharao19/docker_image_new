@@ -1,0 +1,33 @@
+# docker search httpd
+# docker pull nginx:latest
+# docker inspect nginx
+# docker exec -it bbb2a607640e /bin/bash
+# docker stop bbb2a607640e
+# docker start bbb2a607640e
+# docker kill bbb2a607640e
+# docker rm c649d776dca7
+# docker rm -f c649d776dca7
+# docker images
+# docker rm 97a7c3b2f0eb
+# docker rmi httpd
+# docker ps -qa
+# docker rm -f $(docker ps -qa)
+# docker exec -it f9dcac0c0e90 /bin/bash
+# docker run -d --name hanu httpd
+# docker ps
+# docker run -d -p 90:80 --name hanu2 httpd
+# docker ps -a
+# docker run -d -p 92:80 -v /home/hanu:/var/www/html --name hanu3 httpd
+# docker ps -a
+# docker attach containeid
+# docker network ls
+# docker network inspect network
+
+sudo usermod -aG docker $USER
+
+
+
+22)how to see the log in running container
+Ans #Dokcer  logs  –f  containerId/Containername
+23)how to check the logs form particular time
+Ans) #docker  logs --since 2017-05-03T10:00  ContainerName/ContainerID
